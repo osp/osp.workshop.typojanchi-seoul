@@ -1,0 +1,28 @@
+e most important part of training is specifying the shapes of every character.
+is is done by creating image files containing each character, and specifying in a
+separate text file the coordinates and UTF-8 codepoint of each character. One can
+then run several programs distributed with Tesseract to extract and store the char-
+acter shapes. is is generally referred to as the tif/box step, as historically the only
+image format Tesseract supported was TIFF, and the text file specifying character
+coordinates is called a box file.
+e official advice is to use scanned images for training, run Tesseract in a spe-
+cial mode to guess at the correct location of each character, and edit the resulting
+coordinates and UTF-8 characters as appropriate. However, there are several issues
+that make this difficult for Ancient Greek.
+For a reliable training process every character needs to occur at least a few times,
+which can be difficult with a large character set or if one is interested in including
+uncommon characters. While Ancient Greek does not have a large alphabet, for the
+purposes of OCR with Tesseract it does. Ancient Greek has two types of diacritical
+marks; breathing marks (which can be smooth:  ̓ or rough:  ̔), and accents (which
+can be acute:  ́ grave: ` or circumflex:  ͂). ese can be applied in a large variety of
+combinations to all vowels, and are placed either above the character, or to the le
+for the upper case.
+Being designed originally for English, Tesseract has no concept of diacritics, and
+thus cannot separately recognise a character and a diacritical mark above it, and out-
+put the individual UTF-8 codepoints for the character and the combining diacritical
+mark. Instead it must be trained every possible combination of characters and dia-
+critical marks. Moreover, one cannot just scan character lists, as Tesseract requires
+the image to be as close to the format of printed text as possible, in order to make
+informed choices about relative character position and size. Using scans would there-
+fore require many pages, and a great deal of time to create the corresponding box files,
+to ensure every possible character was accounted for.
