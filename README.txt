@@ -1,3 +1,20 @@
+Typojanchi 2013
+======
+
+Workshop
+------
+
+Short version:
+
+By looking at the inner workings of digital text recognition software know as OCR (Optical Character Recognition), there seems to be a space in which we can put comprehension aside, and where we could be able to observe typography in its shapes, before making out it's specificities, or even it's meaning.
+
+By declutching some of our digital habits, and taking time to understand and retrace processes that OCR uses to look at shapes, step by step, and over time working out which are characters, which are words, and what they correspond to, this software embodies a digital way of learning to read.
+
+We believe there is a lot to take from this, a lot we, as type enthusiasts, can grasp on to. Could we propose a patient manual reverse engineering process of the digitally possible methods to work towards a deeper understanding of our typographic languages and our restitution of the embedable links between content and its forms?
+
+
+Long version:
+
 Fancy reading machines androids from science-fiction fantasies are embodied in our modern lower-profile real world as OCR software package. One of them, the free and open source Tesseract [1] is composed of two parts that we can study, thanks to it's licence. There is the engine itself, and the training data for a language [2] partly based on what Tesseract called 'prototypes'. We could compare this 'before to type' (proto-type) to the culture a lecturer progressively gathers from his first lesson going from a novice to a fully grown expert.
 
 By following the limit between the blank surfaces and the dark pixels of the shapes of letters, Tesseract compares its journey with other and previous ones, on images already followed in the past. It starts by learning patterns and specificities of languages, rythms  and irregularities. It goes on to recognise the body of a glyph, then it works out, bit by bit, if this glyph is a letter, form is a word, and eventually it makes out phrases. Like all of us, Tesseract learns typography in this same process, in a completely intertwined way, as sentences, script and eventually, language. [3]
@@ -24,25 +41,7 @@ Finally, if we know organisation in Hangul and Latin are different, and that the
 6. http://www.freetype.org/ttfautohint/#samples
 
 
-
-
-
-Short version:
-
-By looking at the inner workings of digital text recognition software know as OCR (Optical Character Recognition), there seems to be a space in which we can put comprehension aside, and where we could be able to observe typography in its shapes, before making out it's specificities, or even it's meaning.
-
-By declutching some of our digital habits, and taking time to understand and retrace processes that OCR uses to look at shapes, step by step, and over time working out which are characters, which are words, and what they correspond to, this software embodies a digital way of learning to read.
-
-We believe there is a lot to take from this, a lot we, as type enthusiasts, can grasp on to. Could we propose a patient manual reverse engineering process of the digitally possible methods to work towards a deeper understanding of our typographic languages and our restitution of the embedable links between content and its forms?
-
-
-
-
-
-
-
-A genealogy of several OSP projects unfolds since 2008 around the  questions we'll be excited to explore in another way in Seoul :
-
+A genealogy of several OSP projects unfolds since 2008 around the questions we'll be excited to explore in another way in Seoul :
 
 — During several Dingbat Liberation Fests, OSP insists on questionning from the side what a glyph is, what a letter is, and how we can reappropriate these precious parts of the culture as our own, even if a legitimate smoothing effect by Unicode codification effort tend to loose the granularity in the heart of each triangle script-language-typography. Dingbat Dictées are recipes for teaching Unicode poetry to students of all ages.
 http://ospublish.constantvzw.org/blog/?s=dingbat
