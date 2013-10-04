@@ -1,6 +1,20 @@
 The contents of this repository are ©
-Ludivine Loiseau, Pierre Huyghebaert, Sarah Maganan and Colm O'Neill for OSP (Open Source Publishing)
-and the participants of the workshop at Typojanchi in Seoul between the 30th of September and the 4th of October 2013
+전혜림 Jeon (matilda) Hye Rim,
+구운회 Gu Wun Hyoi,
+김명곤 Kim Myeng Gon,
+정경빈 Jeong Kyung Bin,
+서수호 Seo Soo Ho,
+안종민 Ahn Jong Min,
+조은지 Jo Eunji,
+데이비드 David Dahan,
+안유 Ahnu Ahn,
+손지선 Ji Sun Son,
+루디 Ludivine Loiseau,
+피에르 Pierre Huyghebaert,
+사라 Sarah Magnan,
+콜럼 Colm O'Neill,
+the participants of the workshop (at Typojanchi in Seoul between the 30th of September and the 4th of October 2013) and
+OSP (Open Source Publishing),
 unless noted otherwise.
 
 Partner : typojanchi.org
