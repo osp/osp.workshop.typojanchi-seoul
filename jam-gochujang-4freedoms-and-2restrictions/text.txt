@@ -5,6 +5,9 @@ freedom3 : 다른 사람들과 같이 쓰는 자유 (공유하는 자유) share 
 restriction : 저작권표시를 허가하는 (소유권을 주는) give it attribution 
 restriction : 밀폐하지 않는 자유 not closing it
 
+감사합니다  means Thank you
+만든이 means By 
+
 
 Copyleft in korean :
 
