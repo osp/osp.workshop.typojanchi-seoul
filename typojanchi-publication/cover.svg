@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="cover8.pdf">
+   sodipodi:docname="cover13.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="208.37465"
-     inkscape:cy="200.6208"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="271.60675"
+     inkscape:cy="-30.815998"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -37,10 +37,12 @@
      inkscape:window-height="776"
      inkscape:window-x="65"
      inkscape:window-y="24"
-     inkscape:window-maximized="1">
+     inkscape:window-maximized="1"
+     inkscape:snap-nodes="false"
+     inkscape:snap-global="false">
     <sodipodi:guide
        orientation="1,0"
-       position="52.857143,548.57143"
+       position="52.857143,-18.571429"
        id="guide3825" />
     <sodipodi:guide
        orientation="0,1"
@@ -74,6 +76,18 @@
        orientation="0,1"
        position="0,147.14286"
        id="guide3031" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="135.71429,147.14286"
+       id="guide3464" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="52.857143,-21.428571"
+       id="guide3466" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="92.857143,131.42857"
+       id="guide3468" />
   </sodipodi:namedview>
   <metadata
      id="metadata7">
@@ -145,7 +159,7 @@
        xml:space="preserve"
        id="flowRoot3041"
        style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-       transform="translate(-474.39286,645.65596)"><flowRegion
+       transform="translate(-1028.6786,475.65596)"><flowRegion
          id="flowRegion3043"><rect
            id="rect3045"
            width="173.14395"
@@ -202,7 +216,7 @@
        xml:space="preserve"
        id="flowRoot3041-4-7-2"
        style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-       transform="matrix(0.99999564,0,0,1,-668.38971,647.55572)"><flowRegion
+       transform="matrix(0.99999564,0,0,1,-1095.5326,351.84143)"><flowRegion
          id="flowRegion3043-6-1-1"><rect
            id="rect3045-5-7-7"
            width="171.39856"
@@ -215,5 +229,35 @@
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
          id="flowPara3363"></flowPara><flowPara
          style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
-         id="flowPara3365">kor.gon.cup-1.box kor.gu.wun.box kor.hanguel.typewriter.box kor.joe.joel.box kor.joe.joel3.box </flowPara></flowRoot>  </g>
+         id="flowPara3365">kor.gon.cup-1.box kor.gu.wun.box kor.hanguel.typewriter.box kor.joe.joel.box kor.joe.joel3.box </flowPara></flowRoot>    <flowRoot
+       transform="translate(-668.92238,647.058)"
+       style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       id="flowRoot3407"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3409"><rect
+           style="font-size:13px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           y="271.34308"
+           x="721.2489"
+           height="42.377148"
+           width="354.57254"
+           id="rect3411" /></flowRegion><flowPara
+         id="flowPara3421"
+         style="font-size:12.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Sans Mono;-inkscape-font-specification:DejaVu Sans Mono">tesseract chosen-image-1962-1973.jpg out -l kor</flowPara></flowRoot>    <flowRoot
+       transform="translate(-668.86379,666.69473)"
+       style="font-size:7.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+       id="flowRoot3437"
+       xml:space="preserve"><flowRegion
+         id="flowRegion3439"><rect
+           style="font-size:7.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+           y="271.34308"
+           x="721.2489"
+           height="52.37714"
+           width="366.71542"
+           id="rect3441" /></flowRegion><flowPara
+         style="font-size:12.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3497">Outputted text from the combined trainneddata ran on the picture on page 2</flowPara><flowPara
+         style="font-size:12.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif"
+         id="flowPara3462" /><flowPara
+         id="flowPara3451"
+         style="font-size:12.5px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:DejaVu Serif;-inkscape-font-specification:DejaVu Serif" /></flowRoot>  </g>
 </svg>
