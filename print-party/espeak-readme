@@ -1,0 +1,23 @@
+
+espeak talking in Korean!
+https://github.com/puzzlet/espeak-korean
+
+install espeak and dependencies
+sudo apt-get install espeak espeakedit make python
+
+then
+git clone --recursive git://github.com/puzzlet/espeak-korean.git
+cd espeak-korean
+sudo make
+make speak
+
+then check that you have Korean in your espeak voices options:
+espeak --voices=
+
+should list Korean between kannada and kurdish
+if so you're good to go;
+
+espeak "바다는, 크레파스보다 진한, 푸르고 육중한 비늘을 무겁게 뒤채면서, 숨을 쉰다.l" -v Korean
+
+options? 
+espeak --h
