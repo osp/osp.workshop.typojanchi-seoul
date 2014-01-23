@@ -294,6 +294,14 @@
        effect="spiro"
        id="path-effect3771"
        is_visible="true" />
+    <inkscape:path-effect
+       is_visible="true"
+       id="path-effect4083-4"
+       effect="spiro" />
+    <inkscape:path-effect
+       effect="spiro"
+       id="path-effect4079-2"
+       is_visible="true" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -353,52 +361,28 @@
        x="371.59036"
        y="342.59311" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 476.0799,397.07519 0,15.37442"
-       id="path4077"
-       inkscape:path-effect="#path-effect4079"
-       inkscape:original-d="m 476.0799,397.07519 0,15.37442"
-       inkscape:connector-curvature="0" />
-    <path
        inkscape:connector-curvature="0"
-       inkscape:original-d="m 476.0799,412.23287 0,15.37442"
-       inkscape:path-effect="#path-effect4083"
-       id="path4081"
-       d="m 476.0799,412.23287 0,15.37442"
-       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
-    <g
-       transform="matrix(0.89656321,0,0,0.89364522,-437.41675,214.29565)"
-       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
-       id="flowRoot4115">
-      <path
-         d="m 1066.625,208.84642 0,-2.92969 2.9297,0 0,2.92969 -2.9297,0 m 0.1758,23.20312 0,-20.60547 2.5781,0 0,20.60547 -2.5781,0"
-         style="line-height:125%;fill:#ffffff;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
-         id="path4457"
-         inkscape:connector-curvature="0" />
-    </g>
-    <path
-       inkscape:connector-curvature="0"
-       inkscape:original-d="m 583.66749,397.07519 0,15.37442"
+       inkscape:original-d="m 475.90655,397.07519 0,15.37442"
        inkscape:path-effect="#path-effect4139"
        id="path4123"
-       d="m 583.66749,397.07519 0,15.37442"
+       d="m 475.90655,397.07519 0,15.37442"
        style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 583.66749,412.23287 0,15.37442"
+       d="m 475.90655,412.23287 0,15.37442"
        id="path4125"
        inkscape:path-effect="#path-effect4141"
-       inkscape:original-d="m 583.66749,412.23287 0,15.37442"
+       inkscape:original-d="m 475.90655,412.23287 0,15.37442"
        inkscape:connector-curvature="0" />
     <path
        style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 598.98339,412.34124 -15.42462,0"
+       d="m 491.22245,412.34124 -15.42462,0"
        id="path4127"
        inkscape:path-effect="#path-effect4143"
-       inkscape:original-d="m 598.98339,412.34124 -15.42462,0"
+       inkscape:original-d="m 491.22245,412.34124 -15.42462,0"
        inkscape:connector-curvature="0" />
     <g
-       transform="matrix(0.89656321,0,0,0.89364522,-334.92487,214.29565)"
+       transform="matrix(0.89656321,0,0,0.89364522,-442.68581,214.29565)"
        style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
        id="flowRoot4131">
       <path
@@ -532,6 +516,30 @@
          d="m 1084.8477,226.79563 0,-15.35156 2.5781,0 0,15.35156 c 0,0.97657 0.345,1.77084 1.0351,2.38282 0.7032,0.59896 1.4584,0.89844 2.2657,0.89843 1.927,1e-5 3.9257,-1.12629 5.9961,-3.3789 l 0,-15.25391 2.5781,0 0,20.60547 -2.5781,0 0,-3.39844 c -1.849,1.8099 -3.431,2.91667 -4.7461,3.32032 -0.6381,0.19531 -1.3021,0.29296 -1.9922,0.29296 -1.4974,0 -2.7279,-0.45572 -3.6914,-1.36718 -0.9636,-0.91146 -1.4453,-2.27865 -1.4453,-4.10157"
          style="line-height:125%;fill:#ffffff;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
          id="path4468"
+         inkscape:connector-curvature="0" />
+    </g>
+    <path
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 582.32308,397.07519 0,15.37442"
+       id="path4077"
+       inkscape:path-effect="#path-effect4079-2"
+       inkscape:original-d="m 582.32308,397.07519 0,15.37442"
+       inkscape:connector-curvature="0" />
+    <path
+       inkscape:connector-curvature="0"
+       inkscape:original-d="m 582.32308,412.23287 0,15.37442"
+       inkscape:path-effect="#path-effect4083-4"
+       id="path4081"
+       d="m 582.32308,412.23287 0,15.37442"
+       style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+    <g
+       transform="matrix(0.89656321,0,0,0.89364522,-331.17357,214.29565)"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
+       id="flowRoot4115">
+      <path
+         d="m 1066.625,208.84642 0,-2.92969 2.9297,0 0,2.92969 -2.9297,0 m 0.1758,23.20312 0,-20.60547 2.5781,0 0,20.60547 -2.5781,0"
+         style="line-height:125%;fill:#ffffff;font-family:News Cycle;-inkscape-font-specification:News Cycle Medium"
+         id="path4457"
          inkscape:connector-curvature="0" />
     </g>
   </g>
