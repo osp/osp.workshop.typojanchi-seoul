@@ -1,0 +1,49 @@
+X: 1
+T: from korean-song-short.mid
+M: 4/4
+L: 1/8
+Q:1/4=130
+K:D % 2 sharps
+% korean-song Pierre
+% Copyright \0xa9 
+V:1
+%%MIDI program 1
+% korean-song Pierre
+% Copyright \0xa9 
+D,/2D,/2D,/2D,/2 D/2D/2D/2D/2 D/2D/2D/2D/2 D/2D/2D/2D/2| \
+D,/2D,/2D,/2D,/2 D/2D/2D/2D/2 D/2D/2D/2D/2 D/2D/2D/2D/2| \
+d4- dF Ad| \
+c4- cE Gc|
+B4- B^A BF| \
+=A4- Ac BA| \
+[dAF][d3/2A3/2F3/2][d/2A/2F/2][dAF] [d2A2F2] x2| \
+d/2F/2A/2d/2 B/2A/2F/2A/2 d/2F/2A/2d/2 B/2A/2F/2A/2|
+G/2B/2e/2d/2 e/2d/2B/2G/2 G/2B/2e/2d/2 e/2d/2B/2G/2| \
+A/2c/2e/2a/2 g/2e/2c/2A/2 A/2c/2e/2a/2 g/2e/2c/2A/2| \
+d/2f/2d/2f/2 b/2a/2f/2d/2 d/2f/2d/2f/2 b/2a/2f/2d/2| \
+[dAF][fdA] [f/2d/2A/2][fdA][f/2d/2A/2] [f2d2A2] AA|
+A2 F3/2E/2 D2 ED| \
+D4 B,D2B,| \
+A,2 DD F2 AA| \
+E6 A3/2A/2|
+A2 FE D2 ED| \
+D4 B,D2B,| \
+A,2 DF A2 EF| \
+D6 DD|
+B2 BB G2 BB| \
+A4 FA2F| \
+E2 A3/2A/2 AG cB| \
+A6 AA|
+A2 F3/2E/2 D2 ED| \
+D4 B,D2B,| \
+A,2 DF A2 EF| \
+D6 DD|
+B2 BB G2 BB| \
+A4 FA F2| \
+E2 AA AG cB| \
+A6 AA|
+A2 F3/2E/2 D2 ED| \
+D4 B,D2B,| \
+A,2 DF A2 EF| \
+D6 x2|
+x4 [e4-B4-F4-D,4-]|[e4B4F4D,4] 
