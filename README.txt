@@ -9,6 +9,7 @@ Workshop
 **23 January 2014** — Live from [SIN lab](http://www.youtube.com/user/collectifsin1/videos), inside [De La Charge](http://delacharge.com/) house, OSP reviews the trip that took place 3 months before. 
 
 ![The flyer](http://osp.constantvzw.org/visual/cache/osp.workshop.typojanchi-seoul/width..600/465c06f3d84b8556247e2b8b1eb97a18bf160cdc "The flyer")
+
 [Download the flyer in pdf](http://osp.constantvzw.org/workshop/typojanchi-seoul/tree/master/print-party/seoul-fonts-karaoke-outlined.pdf)
 
 The tour is composed by : 
@@ -25,9 +26,14 @@ The tour is composed by :
 Result : two potential hits,[다누보강의 작울결 Remix 1](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_1.wav) and [다누보강의 작울결 Remix 2](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_2.wav) to download!
 This marks the beginning of a collaboration with Paul Boudeau from Sin, for a future [pure-dated](http://puredata.info/) version of it!
 
-Some photos here
 
-http://www.google.com.hk/intl/zh-CN/images/logo_cn.png 
+![파전](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0617.JPG?m=1390944692 "Korean pancakes")
+![Hangul lesson](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0677.JPG?m=1390944714 "Hangul lesson")
+![Funzie Fonzie from a Korean Letraset board](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0708.JPG?m=1390944724 "Funzie Fonzie from a Korean Letraset board")
+
+
+[Visit more pictures here](http://ospublish.constantvzw.org/images/Seoul-Fonts-Karaoke)
+
 
 **Workshop description** — By looking at the inner workings of digital text recognition software know as OCR (Optical Character Recognition), there seems to be a space in which we can put comprehension aside, and where we could be able to observe typography in its shapes, before making out it's specificities, or even it's meaning. By declutching some of our digital habits, and taking time to understand and retrace processes that OCR uses to look at shapes, step by step, and over time working out which are characters, which are words, and what they correspond to, this software embodies a digital way of learning to read. We believe there is a lot to take from this, a lot we, as type enthusiasts, can grasp on to. Could we propose a patient manual reverse engineering process of the digitally possible methods to work towards a deeper understanding of our typographic languages and our restitution of the embedable links between content and its forms?
 
@@ -56,22 +62,16 @@ Galerie De La Charge
     mogrify -format jpg *.*  
     for i in *.jpg; do mogrify -type Grayscale -sharpen 0x3.0 -resize 1000x1000 $i `basename $i .jpg`.jpg ; done  
     fonzie tessdata=/home/ludi/src/tesseract/tessdata/kor.traineddata s=100 i=letraset.jpg txt=letraset.txt otf=1 n=letraset
-
 &nbsp;
- 
     cat *.txt > lyrics.txt
     espeak -f lyrics.txt -v Korean -g -p 20
     espeak -f lyrics.txt -v Korean -g -p 99
-
 &nbsp;
-
     timidity file.mid
     midi2abc korean-song-long-instruments.mid > seoul-fonts-song.abc
     manual edit of the .abc file and adding the words to the notes
     make 
-
 &nbsp;
-
     midi2ly seoul-fonts.midi
     lilypond seoul-fonts-midi.ly
     evince ./seoul-fonts-midi.pdf
