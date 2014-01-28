@@ -23,14 +23,15 @@ The tour is composed by :
 - convert these midi to abc format with midi2abc, 
 - and finally inject them to make [ecantorix](https://github.com/divVerent/ecantorix) sings! Proto open source karaoke flavour!
 
-Result : two potential hits,[다누보강의 작울결 Remix 1](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_1.wav) and [다누보강의 작울결 Remix 2](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_2.wav) to download!
+Result : 
+**two potential hits,[다누보강의 작울결 Remix 1](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_1.wav) and [다누보강의 작울결 Remix 2](http://git.constantvzw.org/?p=osp.workshop.typojanchi-seoul.git;a=blob_plain;f=print-party/hits/seoul-fonts-song_2.wav) to download!**
+
 This marks the beginning of a collaboration with Paul Boudeau from Sin, for a future [pure-dated](http://puredata.info/) version of it!
 
 
-![파전](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0617.JPG?m=1390944692 "Korean pancakes")
-![Hangul lesson](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0677.JPG?m=1390944714 "Hangul lesson")
-![Funzie Fonzie from a Korean Letraset board](http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0708.JPG?m=1390944724 "Funzie Fonzie from a Korean Letraset board")
-
+<img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0617.JPG?m=1390944692" width="300" alt="Korean pancakes"/>
+<img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0677.JPG?m=1390944714" width="300" alt="Hangul lesson"/>
+<img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0708.JPG?m=1390944724" width="300" alt="Funzie Fonzie from a Korean Letraset board"/>
 
 [Visit more pictures here](http://ospublish.constantvzw.org/images/Seoul-Fonts-Karaoke)
 
@@ -62,16 +63,19 @@ Galerie De La Charge
     mogrify -format jpg *.*  
     for i in *.jpg; do mogrify -type Grayscale -sharpen 0x3.0 -resize 1000x1000 $i `basename $i .jpg`.jpg ; done  
     fonzie tessdata=/home/ludi/src/tesseract/tessdata/kor.traineddata s=100 i=letraset.jpg txt=letraset.txt otf=1 n=letraset
-&nbsp;
+    
+
     cat *.txt > lyrics.txt
     espeak -f lyrics.txt -v Korean -g -p 20
     espeak -f lyrics.txt -v Korean -g -p 99
-&nbsp;
+
+
     timidity file.mid
     midi2abc korean-song-long-instruments.mid > seoul-fonts-song.abc
     manual edit of the .abc file and adding the words to the notes
     make 
-&nbsp;
+
+
     midi2ly seoul-fonts.midi
     lilypond seoul-fonts-midi.ly
     evince ./seoul-fonts-midi.pdf
