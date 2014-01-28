@@ -124,3 +124,5 @@ Seoul Font Karaoke was made possible with the following additional tools:
 - The lyrics have been sung and recorded by espeak with an additional korean voice courtesy of Kyung-hown Chung
 - The music-score layout as has been produced by Lilypond
 - The booklet was laid-out using Inkscape
+
+
