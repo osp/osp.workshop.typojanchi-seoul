@@ -89,33 +89,36 @@ Bonus! Custom fonts in the score, add `\override LyricText #'font-name = #"Korea
 
 Serving Size: Makes 6-12 medium-sized pancakes
 
-Ingredients:  
-2 bundles of Korean leek ( this may be garlic chives- not sure), washed thoroughly and cut into 2 inch segments  
-1 yellow onion, peeled and thinly sliced  
-2 cups flour or Korean pancake flour: sold at Asian market ( I  recommend the Korean pancake flour because it is already seasoned)  
-1 cup water  
-Optional: Dipping soy sauce  
-2 tablespoons soy sauce  
-1/2 tablespoon rice vinegar  
-1/2 tablespoon sesame oil  
-1/4 tablespoon sesame seed  
-1/3 cup minced green onion  
+Ingredients:
+
+-  2 bundles of Korean leek ( this may be garlic chives- not sure), washed thoroughly and cut into 2 inch segments
+-  1 yellow onion, peeled and thinly sliced
+-  2 cups flour or Korean pancake flour: sold at Asian market ( I  recommend the Korean pancake flour because it is already seasoned)
+-  1 cup water
+
+Optional: Dipping soy sauce
+
+-  2 tablespoons soy sauce
+-  1/2 tablespoon rice vinegar
+-  1/2 tablespoon sesame oil
+-  1/4 tablespoon sesame seed
+-  1/3 cup minced green onion
 
 Directions:
 
-1. Combine leek and onion in mixing bowl.
-2. Add enough flour to cover all of the leeks and onions, but not too much that it buries it.
-3. Add water to make batter thin consistency.
-4. Heat pan with tablespoon of oil on high heat.
+1.  Combine leek and onion in mixing bowl.
+2.  Add enough flour to cover all of the leeks and onions, but not too much that it buries it.
+3.  Add water to make batter thin consistency.
+4.  Heat pan with tablespoon of oil on high heat.
 5.  Scoop batter with leek and onion and pour onto pan into medium-sized circle; spread veggies out evenly.
 6.  After batter has cooked on one side, quickly flip over and begin flattening out pancake. Turn heat to medium high.
-7. Continue to flip and press until outside is crispy, golden.
-8. Optional: Mix Dipping soy sauce ingredients and serve on the side with pancakes.
+7.  Continue to flip and press until outside is crispy, golden.
+8.  Optional: Mix Dipping soy sauce ingredients and serve on the side with pancakes.
 
 Two things I learned from my mom that changed my pancake-making:
 
-1. Initial High heat : this is what gets that nice crispness
-2. Just enough pancake flour: I always thought it was like making  American pancakes- you need lots of batter. But it’s quite the opposite.  You need just enough to hold the veggies together. This way you can  really taste the veggies and still enjoy the crispness of the pancake  batter.
+1.  Initial High heat : this is what gets that nice crispness
+2.  Just enough pancake flour: I always thought it was like making  American pancakes- you need lots of batter. But it’s quite the opposite.  You need just enough to hold the veggies together. This way you can  really taste the veggies and still enjoy the crispness of the pancake  batter.
 
 **Colophon**
 
