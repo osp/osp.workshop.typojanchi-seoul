@@ -28,19 +28,17 @@ Result :
 
 This marks the beginning of a collaboration with Paul Boudeau from Sin, for a future [pure-dated](http://puredata.info/) version of it!
 
-
 <img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0617.JPG?m=1390944692" width="300" alt="Korean pancakes"/>
 <img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0677.JPG?m=1390944714" width="300" alt="Hangul lesson"/>
 <img src="http://ospublish.constantvzw.org/images/var/resizes/Seoul-Fonts-Karaoke/DSCF0708.JPG?m=1390944724" width="300" alt="Funzie Fonzie from a Korean Letraset board"/>
 
 [Visit more pictures here](http://ospublish.constantvzw.org/images/Seoul-Fonts-Karaoke)
 
-
 **Workshop description** — By looking at the inner workings of digital text recognition software know as OCR (Optical Character Recognition), there seems to be a space in which we can put comprehension aside, and where we could be able to observe typography in its shapes, before making out it's specificities, or even it's meaning. By declutching some of our digital habits, and taking time to understand and retrace processes that OCR uses to look at shapes, step by step, and over time working out which are characters, which are words, and what they correspond to, this software embodies a digital way of learning to read. We believe there is a lot to take from this, a lot we, as type enthusiasts, can grasp on to. Could we propose a patient manual reverse engineering process of the digitally possible methods to work towards a deeper understanding of our typographic languages and our restitution of the embedable links between content and its forms?
 
 **Info** — Seoul Print Party OSP - Lab sin01
-Thursday, January 23, 18:00 — 21:00
-Galerie De La Charge
+Thursday, January 23, 2014, 18:00 — 21:00
+Galerie De La Charge, Brussels
 
 **Line up for humans**  
 17:30 — Doors open, korean vynils  
@@ -58,29 +56,34 @@ Galerie De La Charge
 
 **Line up for machines**
 
+OCR + fonts
+
     tesseract special-offer.jpg special-offer  
     tesseract special-offer.jpg special-offer -l kor  
     mogrify -format jpg *.*  
     for i in *.jpg; do mogrify -type Grayscale -sharpen 0x3.0 -resize 1000x1000 $i `basename $i .jpg`.jpg ; done  
     fonzie tessdata=/home/ludi/src/tesseract/tessdata/kor.traineddata s=100 i=letraset.jpg txt=letraset.txt otf=1 n=letraset
-    
+
+Speech
 
     cat *.txt > lyrics.txt
     espeak -f lyrics.txt -v Korean -g -p 20
     espeak -f lyrics.txt -v Korean -g -p 99
 
+Music
 
     timidity file.mid
     midi2abc korean-song-long-instruments.mid > seoul-fonts-song.abc
     manual edit of the .abc file and adding the words to the notes
     make 
 
+Score
 
     midi2ly seoul-fonts.midi
     lilypond seoul-fonts-midi.ly
     evince ./seoul-fonts-midi.pdf
 
-(bonus) custom fonts in the score, add `\override LyricText #'font-name = #"KoreanLetraset"` just after `\lyricmode {` and just before the text you want to style
+Bonus! Custom fonts in the score, add `\override LyricText #'font-name = #"KoreanLetraset"` just after `\lyricmode {` and just before the text you want to style
 
 **Korean Leek & Onion Pancake**
 
@@ -92,7 +95,6 @@ Ingredients:
 2 cups flour or Korean pancake flour: sold at Asian market ( I  recommend the Korean pancake flour because it is already seasoned)  
 1 cup water  
 Optional: Dipping soy sauce  
-Ingredients:  
 2 tablespoons soy sauce  
 1/2 tablespoon rice vinegar  
 1/2 tablespoon sesame oil  
@@ -116,13 +118,12 @@ Two things I learned from my mom that changed my pancake-making:
 2. Just enough pancake flour: I always thought it was like making  American pancakes- you need lots of batter. But it’s quite the opposite.  You need just enough to hold the veggies together. This way you can  really taste the veggies and still enjoy the crispness of the pancake  batter.
 
 **Colophon**
+
 Seoul Font Karaoke was made possible with the following additional tools:
 
 - The font manipulation software in use is Fontforge
 - The pictures have been converted to grayscale, sharpend and resized thanks to Imagemagick
-- The midi file was manually created by Bernard Guyot on basis of a vynil recoding using non-free Sibelius software
+- The midi file was manually created by Bernard Guyot on basis of a vynil recording using non-free Sibelius software
 - The lyrics have been sung and recorded by espeak with an additional korean voice courtesy of Kyung-hown Chung
 - The music-score layout as has been produced by Lilypond
 - The booklet was laid-out using Inkscape
-
-
